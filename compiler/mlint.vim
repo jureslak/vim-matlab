@@ -2,7 +2,7 @@
 " Compiler:         Matlab mlint code checker
 " Maintainer:       Fabrice Guy <fabrice.guy at gmail dot com>
 " Latest Revision:  2008 Oct 16
-" Comment:          mlint messages are either 
+" Comment:          mlint messages are either
 "                   - L x (C y): message (where x and y are line number and
 "                   column number)
 "                   - L x (C y-z): message (where x is the line number, y and
@@ -19,7 +19,7 @@ if exists(":CompilerSet") != 2		" older Vim always used :setlocal
 endif
 
 " mlint doesn't provide filename information except if multiple
-" filenames are given 
+" filenames are given
 " With the following command :
 " mlint <filename> <filename without extension>
 " mlint produces an output like that :
@@ -32,7 +32,7 @@ endif
 " L 0 (C 0): MDOTM :Filename 'filename' must end in .m or .M
 "
 " The filename can then be parsed
-CompilerSet makeprg=mlint\ -id\ %\ %< 
+CompilerSet makeprg=mlint\ -id\ %\ %<
 
 CompilerSet errorformat=
       \%-P==========\ %f\ ==========,

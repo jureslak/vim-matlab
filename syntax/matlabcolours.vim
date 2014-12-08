@@ -15,7 +15,7 @@
 "                copyright notice, this list of conditions and the following   "
 "                disclaimer in the documentation and/or other materials        "
 "                provided with the distribution.                               "
-" Description: Vim syntax file to highlight the different highlight groups.    " 
+" Description: Vim syntax file to highlight the different highlight groups.    "
 "					This file is based on "colours_bandit.vim" by A. S. Budden.     "
 " Install:     Put this file in the user's syntax directory (~/.vim/syntax or  "
 "              $vim\vimfiles\syntax on Windows systems)                        "
